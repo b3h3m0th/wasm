@@ -1,2 +1,9 @@
 # wasm
- Webassembly test
+
+Webassembly test
+
+## deps
+
+- Node
+- gcc
+- emscripten
