@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "asbuild:untouched": "asc assembly/index.ts --target debug",
-    "asbuild:optimized": "asc assembly/index.ts --target release",
-    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized",
+    "build": "emcc c/main.c -o c/out/main.js && npm run build:as",
+    "build:as:untouched": "asc assembly/index.ts --target debug",
+    "build:as:optimized": "asc assembly/index.ts --target release",
+    "build:as": "npm run build:as:untouched && npm run build:as:optimized",
     "build:c": "emcc c/main.c -o c/out/main.js",
     "test": "node tests"
   },
