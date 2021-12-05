@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WASM</title>
+    <script type="module">
+      (async () => {
+        const load_c_wasm = await import("./c/load_c_wasm.js");
+        const exports = await load_c_wasm.default();
+        console.log(exports.c_add(2, 2));
+        console.log(exports.c_print());
+      })();
+    </script>
+  </head>
+  <body>
+    <h1>Webassembly</h1>
+  </body>
+</html>
