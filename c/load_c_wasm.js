@@ -41,7 +41,5 @@ export default async function load_c_wasm() {
     instance: { exports }
   } = await WebAssembly.instantiate(buffer);
 
-  console.log(exports);
-
   return exports;
 }
