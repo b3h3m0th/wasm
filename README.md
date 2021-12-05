@@ -1,8 +1,6 @@
-# wasm
+# WASM test
 
-Webassembly test
-
-## deps
+## Deps
 
 - Node
 - gcc
