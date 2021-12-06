@@ -7,6 +7,7 @@
       (async () => {
         const load_c_wasm = await import("./c/load_c_wasm.js");
         const exports = await load_c_wasm.default();
+        console.log(exports);
         console.log(exports.c_add(2, 2));
         console.log(exports.c_print());
       })();

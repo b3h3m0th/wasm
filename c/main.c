@@ -12,3 +12,12 @@ float c_print()
 {
   return 0;
 }
+
+EMSCRIPTEN_KEEPALIVE
+int main()
+{
+  struct Auth {
+    token = 
+  }
+  return 0;
+}
