@@ -2,6 +2,10 @@
   "C_Cpp.errorSquiggles": "Disabled",
   "files.associations": {
     "stdio.h": "c",
-    "emscripten.h": "c"
+    "emscripten.h": "c",
+    "math.h": "c",
+    "corecrt_math.h": "c",
+    "corecrt.h": "c",
+    "vcruntime.h": "c"
   }
 }

@@ -1873,6 +1873,9 @@ var _c_add = Module["_c_add"] = createExportWrapper("c_add");
 var _c_print = Module["_c_print"] = createExportWrapper("c_print");
 
 /** @type {function(...*):?} */
+var _c_pow2 = Module["_c_pow2"] = createExportWrapper("c_pow2");
+
+/** @type {function(...*):?} */
 var ___errno_location = Module["___errno_location"] = createExportWrapper("__errno_location");
 
 /** @type {function(...*):?} */
