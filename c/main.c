@@ -14,10 +14,14 @@ float c_print()
 }
 
 EMSCRIPTEN_KEEPALIVE
-int main()
+int auth()
 {
-  struct Auth {
-    token = 
-  }
-  return 0;
+  struct Auth
+  {
+    char[] token;
+    char[] refresh;
+  };
+
+  Auth.token = "";
+  Auth.refresh = "";
 }
