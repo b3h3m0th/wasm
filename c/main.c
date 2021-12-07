@@ -17,7 +17,7 @@ float c_print()
 // EMSCRIPTEN_KEEPALIVE
 // int auth()
 // {
-//   struct Auth
+//   typedef struct Auth
 //   {
 //     char[] token;
 //     char[] refresh;
